@@ -14,7 +14,7 @@ code for tampermonkey:
         'use strict';
 
         const video = document.createElement('video');
-        video.src = 'https://legustalo.github.io/videos/BadApple.webm';
+        video.src = 'https://legustalo.github.io/bad-apple-as-website-background/videos/BadApple.webm';
         video.autoplay = true;
         video.loop = true;
         video.muted = true;
