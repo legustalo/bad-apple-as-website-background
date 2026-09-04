@@ -1,15 +1,18 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html>
 <head>
   <meta charset="UTF-8">
-  <title>Site LEGAL</title>
-  <link rel="stylesheet" href="style.css">
+  <!-- <title>Site LEGAL</title>
+  <!-<link rel="stylesheet" href="style.css"> -->
+  <style>
+    body {margin:0;background: #000;}
+    #video-fundao {position: fixed;inset:0;width:100vw;height:100vh;object-fit: cover;z-index:-1;pointer-events: none;}
+  </style>
 </head>
 <body>
-  <video autoplay muted loop playsinline id="video-fundo">
-    <source src="videos/BadApple.webm" type="video/webm">
+  <video autoplay muted loop playsinline id="video-fundao" src="videos/BadApple.webm">
+    <!--<source src="videos/BadApple.webm" type="video/webm">-->
     Seu navegador não suporta vídeos em HTML5.
   </video>
-
 </body>
 </html>
