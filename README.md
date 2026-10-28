@@ -51,7 +51,7 @@ uses a optimized webm video hosted at github pages and should run at every brows
 
 i did not tested it yet, but it should be compatible at mobile with tampermonkey extension. but i think that in a 9:16 screen it would have a super zoom because i've set to COVER the screen and not CONTAIN. as said, not tested yet.
 
-it replaces the website background at <body> and <html> by making it transparent and creates it
+it replaces the website background at \<body\> and \<html\> by making it transparent and creates it
 
 aspect ratio is 16:9, although it should've been 4:3; the video will pause if you leave the browser tab and will continue upon return
 
