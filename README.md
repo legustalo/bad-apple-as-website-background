@@ -53,4 +53,6 @@ i did not tested it yet, but it should be compatible at mobile with tampermonkey
 
 it replaces the website background at <body> and <html> by making it transparent and creates it
 
+aspect ratio is 16:9, although it should've been 4:3; the video will pause if you leave the browser tab and will continue upon return
+
 there is no way to interact and hear at all
