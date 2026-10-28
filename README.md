@@ -42,3 +42,15 @@ code for tampermonkey:
         document.head.appendChild(style);
 
     })();
+
+how it works:
+"*://*/*"   * means that any character is accepted
+the first is for protocol, second one is website and the third is for website path
+
+uses a optimized webm video hosted at github pages and should run at every browser without consuming that much power and no need of specialp ermissions
+
+i did not tested it yet, but it should be compatible at mobile with tampermonkey extension. but i think that in a 9:16 screen it would have a super zoom because i've set to COVER the screen and not CONTAIN. as said, not tested yet.
+
+it replaces the website background at <body> and <html> by making it transparent and creates it
+
+there is no way to interact and hear at all
